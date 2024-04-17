@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/henrisippola/web_ohjelmointi_part4/issues"
   },
-  "homepage": "https://github.com/henrisippola/web_ohjelmointi_part4#readme"
+  "homepage": "https://github.com/henrisippola/web_ohjelmointi_part4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
 }
